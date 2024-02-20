@@ -21,8 +21,8 @@ body{
 }
 @keyframes glow{
     0%, 100%{
-        color: #8f067d;
-        text-shadow: 0 0 12px #e406d9, 0 0 50px #fd0ed5, 0 0 100px #e44bc3;
+        color: #3c89ec;
+        text-shadow: 0 0 12px #1e81c4, 0 0 50px #3177d1, 0 0 100px #5694e4;
     }
     10%, 90%{
         color: #111;
@@ -52,6 +52,15 @@ body{
 }
 .greetings > span:nth-child(9){
     animation-delay: 1.6s;
+}
+.greetings > span:nth-child(10){
+    animation-delay: 1.8s;
+}
+.greetings > span:nth-child(11){
+    animation-delay: 2s;
+}
+.greetings > span:nth-child(12){
+    animation-delay: 2.2s;
 }
 
 .description{
